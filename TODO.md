@@ -1,4 +1,4 @@
-# MVP
+﻿# MVP
 - [√] store items
  - [√] create new item
  - [√] select item
@@ -40,20 +40,35 @@
 
   ### difficulty scale 1-10. 1 meaning it's already finished 10 meaning what?!?!
 
-  5 = 3 hours
-  7 = 5 hours
-  10 = full day + ??
+  1 = 1 hour
+  2 = 1.5 hours
+  3 = 2 hours
+  4 = 3 hours
+  5 = 4 hours
+  6 = 4.5 hours+
+  7 = 5 hours+
+  8 = 6 hours+
+  9 = 7 hours+
+  10 = full day+
 
   *(5) add due date
-  *(7) time stamps (moment.js)
-  (5) format the display of the items in a list (need to add more detail)
-  (??) fix the layout
-  (7) color coded priority
+  *(5) Item categories
+  *(7) mouse over to see details
+  *(2) fillet edges of boxes
+  *(2) font changes/choices? (google fonts)
+  *(5) color coded priority
+      
+   --20 hours--
+
+if more time left - (fix the layout, delete item confirmation, Highlight based on status/priority/due date)
+
+
+  time stamps (moment.js)
+  format the display of the items in a list (need to add more detail)
+  fix the layout
   highlight certain items
-  mouse over to see details
   ability to select and delete multiple items (checkbox?)
   add status/priorty and allow for sorting based on status/priority
-  Item categories
   ability to add/leave comments on item
   upload files/images
   share item
@@ -62,8 +77,6 @@
   reminders? (push operation?)
   secret corgi
   delete item confirmation
-  fillet edges of boxes
-  font changes/choices? (google fonts)
   Panic Button
   Highlight based on status/priority/due date
   options page (ability to set/toggle options)
