@@ -11,14 +11,27 @@
     <script src="app.js"></script>
 
   </head>
+
   <body>
+    <h2>My To-do List</h2>
+  <div class="mainContainer">
 
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
+    <input type="text" class="user-input-title" placeholder="Enter Title">
+    <textarea class="user-input-body" placeholder="Enter description"></textarea>
+    <input type="date" class="user-due-date">    <!-- new -->
 
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
+    <select class="user-drop-down-menu" value="Priority">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>           <!-- New Stuff -->
+    </select>
 
-  <div class="display"></div>
+    <button class="add-text-btn">add item</button>
+    <button class="del-text-btn">delete item</button>
+
+    <div class="display"></div>
+
+  </div>
+
   </body>
 </html>
