@@ -51,7 +51,7 @@
   9 = 7 hours+
   10 = full day+
 
-  *(5) add due date
+  *(5) add due date (maybe add a countdown timer by days/hours/minutes?)
   *(5) Item categories
   *(7) mouse over to see details
   *(2) fillet edges of boxes
