@@ -1,0 +1,11 @@
+h2 {
+	color: blue;
+	text-align: center;
+	font-family: verdana;
+}
+
+.mainContainer {
+	text-align: center;
+	border-color: 1px black;
+
+}
