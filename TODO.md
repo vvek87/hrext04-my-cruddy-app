@@ -51,12 +51,12 @@
   9 = 7 hours+
   10 = full day+
 
-  *(5) add due date (maybe add a countdown timer by days/hours/minutes?)
+  (done)*(5) add due date (maybe add a countdown timer by days/hours/minutes?)
   *(5) Item categories
   *(7) mouse over to see details
   *(2) fillet edges of boxes
   *(2) font changes/choices? (google fonts)
-  *(5) color coded priority
+ (done) *(5) color coded priority
       
    --20 hours--
 
@@ -87,11 +87,3 @@ if more time left - (fix the layout, delete item confirmation, Highlight based o
   add more items button, that shows another input section allowing for multiple items to be added at once
   Fun stuff
   auto-complete when searching/filtering
-
-
-
-
-
-
-
-
