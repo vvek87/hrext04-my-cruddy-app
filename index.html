@@ -9,6 +9,7 @@
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="moment.min.js"></script>
 
   </head>
   <body>
@@ -17,16 +18,15 @@
      <button class='createTodo'>Create To-do</button>
    </div>
     
+
    <form class="createList">
-    <label for="Title">Title</label>
-    <input placeholder="Title" class="inputTitle">
-    <label for="Description">Description</label>
-    <input placeholder="Description" class="inputDescription">
-    <label for="Date">Due Date</label>
-    <input type="date" class="inputDate">
-    <label for="Time">Time:</label>
-    <input type="datetime-local" class="inputTime" min="9:00" max="18:00"/>
-    <label for="Priority">Priority</label>
+    <label for="Title" class="inputUserTitle">Title:</label>
+    <input placeholder=" Enter title" class="inputTitle">
+    <label for="Description" class="inputDesc">Description:</label>
+    <textarea placeholder=" Enter description" class="inputDescription"></textarea> 
+    <label for="Date" class="inputDueDate">Due Date:</label>
+    <input type="datetime-local" class="inputDate" min="9:00" max="18:00"/>
+    <label for="Priority" class="inputPrior">Priority:</label>
     <select name="Priority" class="inputPriority">
       <option value="Low" class="low" selected>Low</option>
       <option value="Medium" class="medium">Medium</option>
@@ -35,14 +35,15 @@
 
     <button type="button" class="submitNewTodo">Submit</button>
   </form>
+
   <div class='display'></div>
 
   <table class="todoList" style="width: 100%; table-layout: fixed">
-    <tr>
+    <tr class="topCategories">
       <th>Title</th>
       <th>Description</th>
       <th>Due Date</th>
-      <th>Priority</th>
+      <th style="width: 250px">Priority</th>
       <th>Make Changes</th>
     </tr>
   </table>
