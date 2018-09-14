@@ -51,12 +51,15 @@
   9 = 7 hours+
   10 = full day+
 
-  (done)*(5) add due date (maybe add a countdown timer by days/hours/minutes?)
+  (complete) *(5) add due date (maybe add a countdown timer by days/hours/minutes?)
   *(5) Item categories
-  *(7) mouse over to see details
+  (complete) *(7) mouse over to see details
   *(2) fillet edges of boxes
-  *(2) font changes/choices? (google fonts)
- (done) *(5) color coded priority
+  (complete) *(2) font changes/choices? (google fonts)
+ (complete) *(5) color coded priority
+   (complete) delete item confirmation
+   add status/priorty and allow for sorting based on status/priority
+  (complete) add more items button
       
    --20 hours--
 
@@ -68,7 +71,6 @@ if more time left - (fix the layout, delete item confirmation, Highlight based o
   fix the layout
   highlight certain items
   ability to select and delete multiple items (checkbox?)
-  add status/priorty and allow for sorting based on status/priority
   ability to add/leave comments on item
   upload files/images
   share item
@@ -76,7 +78,6 @@ if more time left - (fix the layout, delete item confirmation, Highlight based o
   search/filter on keyup/keydown
   reminders? (push operation?)
   secret corgi
-  delete item confirmation
   Panic Button
   Highlight based on status/priority/due date
   options page (ability to set/toggle options)
