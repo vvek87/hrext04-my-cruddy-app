@@ -54,16 +54,17 @@
   (complete) *(5) add due date (maybe add a countdown timer by days/hours/minutes?)
   *(5) Item categories
   (complete) *(7) mouse over to see details
-  *(2) fillet edges of boxes
+  (complete) *(2) fillet edges of boxes
   (complete) *(2) font changes/choices? (google fonts)
  (complete) *(5) color coded priority
    (complete) delete item confirmation
-   add status/priorty and allow for sorting based on status/priority
+   (completed priority) add status/priorty and allow for sorting based on status/priority
   (complete) add more items button
+  (complete) delete item confirmation
       
    --20 hours--
 
-if more time left - (fix the layout, delete item confirmation, Highlight based on status/priority/due date)
+if more time left - (fix the layout, Highlight based on status/priority/due date)
 
 
   time stamps (moment.js)
